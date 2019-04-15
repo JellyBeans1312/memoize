@@ -7,6 +7,12 @@ class CardContainer extends Component {
         super()
 
     }
+
+    render() {
+        return (
+            'hi'
+        )
+    }
 }
 
 export default CardContainer;

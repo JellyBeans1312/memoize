@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import CardContainer from './CardContainer.js';
 import Header from './Header.js';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
+  constructor() {
+    super();
+  }
   render() {
     return (
       <div className="App">
